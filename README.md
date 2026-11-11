@@ -1,16 +1,18 @@
-# Scale institutional knowledge using Copilot Spaces
+# OctoAcme Project Management Docs
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This repository brings together OctoAcme's project management guidance, from initiation through closeout. Initiation validates the business need, success measures, stakeholders, and decision to proceed. Planning turns approved work into a prioritized backlog with acceptance criteria, estimates, milestones, a Definition of Done, and identified dependencies. During execution, teams deliver in small increments and track progress on a project board; releases follow readiness, deployment, verification, and rollback guidance. Retrospectives capture lessons and turn them into owned improvement actions.
 
-Hey clarksmr!
+The Project Manager coordinates delivery, schedules, risks, resources, and communications. The Product Manager defines outcomes, prioritizes work, and measures results. Developers build and test features, QA validates acceptance, and stakeholders provide input and approvals. Teams communicate through regular standups, weekly delivery and PM/Product Manager syncs, demos or milestone reviews, and stakeholder updates. Risks and dependencies are tracked with owners and mitigations, reviewed regularly, and escalated through the appropriate leads.
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+Quality is part of each delivery stage: write unit tests for new logic, add integration tests where applicable, and prepare smoke tests for critical flows. Pull requests should link to issues and acceptance criteria, pass automated tests, linting, and security scans, and receive the required review approval. Manual QA is used when needed; release guidance includes staging smoke tests, production verification, and a rollback or mitigation plan.
 
-Remember, it's self-paced so feel free to take a break! ☕️
+## Documentation
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/clarksmr/skills-scale-institutional-knowledge-using-copilot-spaces/issues/1)
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+- [Project Management Overview](docs/octoacme-project-management-overview.md)
+- [Project Initiation](docs/octoacme-project-initiation.md)
+- [Project Planning](docs/octoacme-project-planning.md)
+- [Execution and Tracking](docs/octoacme-execution-and-tracking.md)
+- [Risk Management and Communication](docs/octoacme-risks-and-communication.md)
+- [Release and Deployment](docs/octoacme-release-and-deployment.md)
+- [Retrospective and Continuous Improvement](docs/octoacme-retrospective-and-continuous-improvement.md)
+- [Roles and Personas](docs/octoacme-roles-and-personas.md)
